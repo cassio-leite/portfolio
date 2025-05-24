@@ -7,10 +7,10 @@
     justify-content: center;
     color: white;
     padding: 0 25%;
-    
+
 }
 
-.home .redes-sociais a{
+.home .redes-sociais a {
     font-size: 1.8rem;
     display: inline-block;
     width: 40px;
@@ -21,14 +21,14 @@
     transition: all 0.3s ease;
 }
 
-.home .redes-sociais a i{
+.home .redes-sociais a i {
     color: #ffffff;
     line-height: 40px;
 }
 
 .home .redes-sociais i:hover {
     color: var(--cor-primaria);
-    
+
 }
 
 .outer-shadow {
@@ -50,6 +50,10 @@
     height: 100%;
     object-fit: cover;
     /* faz o vídeo cobrir toda a área */
+    background-image: url('../images/programe.png');
+    /* Imagem de fallback */
+    background-size: cover;
+    background-position: center;
 }
 
 
