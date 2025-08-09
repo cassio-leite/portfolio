@@ -42,7 +42,6 @@ Aqui estão alguns dos projetos em destaque que você pode encontrar na seção 
 | **Lista de Livros para Programadores** | Um site interativo com uma lista de livros para desenvolvedores. | [GitHub](https://github.com/cassio-leite/livros-para-desenvolvedores.git) | [Deploy](https://cassio-leite.github.io/livros-para-desenvolvedores/) |
 | **E-commerce de Perfume** | Uma loja virtual de perfumes simples e funcional. | [GitHub](https://github.com/cassio-leite/projeto-e-commerce-perfume.git) | [Deploy](https://cassio-leite.github.io/projeto-e-commerce-perfume/) |
 
-**Observação:** Lembre-se de substituir `https://seulinkdoprojeto.com` pelos URLs de deploy de cada um dos seus projetos.
 
 ## ⚙️ Como Executar o Projeto Localmente
 
@@ -55,8 +54,9 @@ Para rodar este portfólio em sua máquina, siga estes passos:
 
 ## 💬 Contato
 
-* **LinkedIn:** [Seu Nome](https://www.linkedin.com/in/seuperfil/)
-* **Email:** seu.email@exemplo.com
+* **LinkedIn:** [Seu Nome](https://www.linkedin.com/in/cassio-leite/)
+* **Email:** cassiocarmo77@gmail.com
+
 
 Ficarei feliz em conectar e discutir oportunidades!
 
