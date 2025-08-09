@@ -12,7 +12,7 @@ import {
 
 const Home = () => {
     return (
-        <HomeSection data-aos="fade-up">
+        <HomeSection id="home" data-aos="fade-up">
                 <HomeContent>
                     <HomeTitle>Olá!</HomeTitle>
                     <HomeSubtitle>
