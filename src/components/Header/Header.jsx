@@ -37,7 +37,7 @@ const Header = () => {
     return (
         <HeaderContainer $scrolled={scrolled}>
             <HeaderBox>
-                <Logo $scrolled={scrolled}><a href="home"><img src="/assets/images/logo.png" alt="Logo" /></a></Logo>
+                <Logo $scrolled={scrolled}><a href="home"><img src="./assets/images/logo.png" alt="Logo" /></a></Logo>
 
                 <Nav>
                     <MenuList $isOpen={isMenuOpen}>

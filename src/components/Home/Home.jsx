@@ -38,7 +38,7 @@ const Home = () => {
                 
                 <HomeVideo>
                     <video autoPlay loop muted playsInline>
-                        <source src="/videos/programe.mp4" type="video/mp4" />
+                        <source src="./videos/programe.mp4" type="video/mp4" />
                         Seu navegador não suporta vídeos HTML5.
                     </video>
                 </HomeVideo>

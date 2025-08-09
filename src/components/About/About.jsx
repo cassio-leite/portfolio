@@ -19,7 +19,7 @@ const About = () => {
             <Container>
                 <ImageWrapper data-aos="zoom-in">
                     <BackgroundAnimation />
-                    <ProfileImage src="/assets/images/cassio-leite.jpg" alt="Foto de perfil" />
+                    <ProfileImage src="./assets/images/cassio-leite.jpg" alt="Foto de perfil" />
                     <CurriculoBtn>
                         <a href="/docs/curriculo.pdf" download="Curriculo-Cassio.pdf">
                             <i className="fa-solid fa-download"></i> <span>Download CV</span>
