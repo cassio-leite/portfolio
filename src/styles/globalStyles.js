@@ -19,7 +19,7 @@ export default createGlobalStyle`
 
   body {
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden; /* impede scroll lateral */
+    overflow-x: hidden;
   }
 
   ::-webkit-scrollbar {

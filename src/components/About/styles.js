@@ -9,7 +9,8 @@ const rotate = keyframes`
 
 export const AboutSection = styled.section`
     background: linear-gradient(to right, #1f232c, #1f232c);
-    padding: 4rem 2rem;
+    padding: 30px;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;

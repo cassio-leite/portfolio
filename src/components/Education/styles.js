@@ -4,7 +4,8 @@ import { media } from '../../styles/media';
 export const EducationSection = styled.section`
     background: #1f232c;
     color: #ffffff;
-    padding: 50px 20px;
+    padding: 30px;
+    overflow: hidden;
     position: relative;
 
     ${media.desktop`

@@ -5,7 +5,8 @@ export const InterestsSection = styled.section`
     display: flex;
     flex-direction: column;
     background: linear-gradient(to left, #323648);
-    padding: 10rem;
+    padding: 30px;
+    overflow: hidden;
     align-items: center;
 
     ${media.desktop`
@@ -21,7 +22,7 @@ export const SectionTitle = styled.h2`
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    top: -5rem;
+    top: -1rem;
     position: relative;
     font-size: 3.5rem;
     font-weight: 700;

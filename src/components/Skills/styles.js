@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const SkillsSection = styled.section`
-    padding: 4rem 2rem;
+    padding: 30px;
+    overflow: hidden;
     text-align: center;
     background-color: #323a48;
     color: #fff;

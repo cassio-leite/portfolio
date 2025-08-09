@@ -19,7 +19,8 @@ export const HomeSection = styled.section`
     justify-content: center;
     color: white;
     
-    padding: 0 1.5rem;
+    padding: 30px;
+    overflow: hidden;
     position: relative;
 
     ${media.mobile`
@@ -49,7 +50,6 @@ export const HomeVideo = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-image: url('./src/assets/images/programe.png');
     background-size: cover;
     background-position: center;
 }
