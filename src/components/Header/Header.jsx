@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import logoImage from "../../assets/images/logo.png";
 import {
     HeaderContainer,
     HeaderBox,
@@ -38,7 +37,7 @@ const Header = () => {
     return (
         <HeaderContainer $scrolled={scrolled}>
             <HeaderBox>
-                <Logo $scrolled={scrolled}><a href="home"><img src={logoImage} alt="Logo" /></a></Logo>
+                <Logo $scrolled={scrolled}><a href="home"><img src="/assets/images/logo.png" alt="Logo" /></a></Logo>
 
                 <Nav>
                     <MenuList $isOpen={isMenuOpen}>
