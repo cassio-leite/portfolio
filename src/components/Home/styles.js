@@ -20,7 +20,7 @@ export const HomeSection = styled.section`
     color: white;
     
     padding: 30px;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
 
     ${media.mobile`

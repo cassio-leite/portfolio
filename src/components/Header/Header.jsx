@@ -27,6 +27,15 @@ const Header = () => {
         }
     };
 
+    const handleMenuClick = (e, id) => {
+        e.preventDefault();
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+        setIsMenuOpen(false);
+    };
+
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
@@ -37,16 +46,44 @@ const Header = () => {
     return (
         <HeaderContainer $scrolled={scrolled}>
             <HeaderBox>
-                <Logo $scrolled={scrolled}><a href="#home"><img src="./assets/images/logo.png" alt="Logo" /></a></Logo>
+                <Logo $scrolled={scrolled}>
+                    <a href="#home" onClick={(e) => handleMenuClick(e, 'home')}>
+                        <img src="./assets/images/logo.png" alt="Logo" />
+                    </a>
+                </Logo>
 
                 <Nav>
                     <MenuList $isOpen={isMenuOpen}>
-                        <MenuItem><a href="#about">Sobre</a></MenuItem>
-                        <MenuItem><a href="#interests">Interesses</a></MenuItem>
-                        <MenuItem><a href="#education">Educação</a></MenuItem>
-                        <MenuItem><a href="#skills">Skills</a></MenuItem>
-                        <MenuItem><a href="#projects">Projetos</a></MenuItem>
-                        <MenuItem><a href="#contact">Contato</a></MenuItem>
+                        <MenuItem>
+                            <a href="#about" onClick={(e) => handleMenuClick(e, 'about')}>
+                                Sobre
+                            </a>
+                        </MenuItem>
+                        <MenuItem>
+                            <a href="#interests" onClick={(e) => handleMenuClick(e, 'interests')}>
+                                Interesses
+                            </a>
+                        </MenuItem>
+                        <MenuItem>
+                            <a href="#education" onClick={(e) => handleMenuClick(e, 'education')}>
+                                Educação
+                            </a>
+                        </MenuItem>
+                        <MenuItem>
+                            <a href="#skills" onClick={(e) => handleMenuClick(e, 'skills')}>
+                                Skills
+                            </a>
+                        </MenuItem>
+                        <MenuItem>
+                            <a href="#projects" onClick={(e) => handleMenuClick(e, 'projects')}>
+                                Projetos
+                            </a>
+                        </MenuItem>
+                        <MenuItem>
+                            <a href="#contact" onClick={(e) => handleMenuClick(e, 'contact')}>
+                                Contato
+                            </a>
+                        </MenuItem>
                     </MenuList>
                 </Nav>
 
@@ -57,5 +94,4 @@ const Header = () => {
         </HeaderContainer>
     );
 };
-
 export default Header;

@@ -5,7 +5,7 @@ export const EducationSection = styled.section`
     background: #1f232c;
     color: #ffffff;
     padding: 30px;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
 
     ${media.desktop`

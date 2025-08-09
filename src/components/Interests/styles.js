@@ -6,7 +6,7 @@ export const InterestsSection = styled.section`
     flex-direction: column;
     background: linear-gradient(to left, #323648);
     padding: 30px;
-    overflow: hidden;
+    overflow-x: hidden;
     align-items: center;
 
     ${media.desktop`
