@@ -256,7 +256,8 @@ Error generating stack: `+a.message+`
     justify-content: center;
     color: white;
     
-    padding: 0 1.5rem;
+    padding: 30px;
+    overflow: hidden;
     position: relative;
 
     ${Wt.mobile`
@@ -282,7 +283,6 @@ Error generating stack: `+a.message+`
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-image: url('./src/assets/images/programe.png');
     background-size: cover;
     background-position: center;
 }
@@ -349,7 +349,8 @@ Error generating stack: `+a.message+`
 }
 `,Jb=X.section`
     background: linear-gradient(to right, #1f232c, #1f232c);
-    padding: 4rem 2rem;
+    padding: 30px;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -486,7 +487,8 @@ Error generating stack: `+a.message+`
     display: flex;
     flex-direction: column;
     background: linear-gradient(to left, #323648);
-    padding: 10rem;
+    padding: 30px;
+    overflow: hidden;
     align-items: center;
 
     ${Wt.desktop`
@@ -500,7 +502,7 @@ Error generating stack: `+a.message+`
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    top: -5rem;
+    top: -1rem;
     position: relative;
     font-size: 3.5rem;
     font-weight: 700;
@@ -573,7 +575,8 @@ Error generating stack: `+a.message+`
 `,c2=()=>O.jsxs(u2,{id:"interests","aria-labelledby":"titulo-interesses",children:[O.jsx(o2,{id:"titulo-interesses","data-aos":"fade-up",children:"Meus Interesses"}),O.jsxs(f2,{children:[O.jsxs(On,{"data-aos":"fade-up",children:[O.jsx("i",{className:"fa-solid fa-futbol"}),O.jsx(gl,{children:"Futebol"})]}),O.jsxs(On,{"data-aos":"fade-up","data-aos-delay":"100",children:[O.jsx("i",{className:"fa-solid fa-book"}),O.jsx(gl,{children:"Ler"})]}),O.jsxs(On,{"data-aos":"fade-up","data-aos-delay":"200",children:[O.jsx("i",{className:"fa-solid fa-music"}),O.jsx(gl,{children:"Música"})]}),O.jsxs(On,{"data-aos":"fade-up","data-aos-delay":"300",children:[O.jsx("i",{className:"fa-solid fa-mug-saucer"}),O.jsx(gl,{children:"Café"})]}),O.jsxs(On,{"data-aos":"fade-up","data-aos-delay":"400",children:[O.jsx("i",{className:"fa-solid fa-rocket"}),O.jsx(gl,{children:"Viajar"})]}),O.jsxs(On,{"data-aos":"fade-up","data-aos-delay":"500",children:[O.jsx("i",{className:"fa-solid fa-film"}),O.jsx(gl,{children:"Filmes"})]})]})]}),s2=X.section`
     background: #1f232c;
     color: #ffffff;
-    padding: 50px 20px;
+    padding: 30px;
+    overflow: hidden;
     position: relative;
 
     ${Wt.desktop`
@@ -693,7 +696,8 @@ Error generating stack: `+a.message+`
     font-size: 14px;
     color: #ccc;
 `,S2=[{title:"Desenvolvimento Web - FrontEnd",period:"Jan 2024 | DevQuest",description:"Atualmente cursando Desenvolvimento Web FrontEnd pelo DevQuest, onde tenho adquirido habilidades práticas e conhecimentos sólidos em programação para uma carreira profissional.",delay:"0"},{title:"Pacote Office",period:"Nov 2023 - Out 2024 | Microlins",description:"Durante o processo de aprendizado, adquiri habilidades em Microsoft Word: Criação e edição de documentos, formatação de texto, uso de tabelas e gráficos. Microsoft Excel: Manipulação de dados, criação de fórmulas, uso de gráficos e tabelas dinâmicas. Microsoft PowerPoint: Criação de apresentações, uso de transições e animações, formatação de slides.",delay:"150"},{title:"Informática",period:"Nov 2023 - Out 2024 | Microlins",description:"Durante o processo de aprendizado, adquiri habilidades em entender as funcionalidades do sistema operacional windows.",delay:"300"}],x2=()=>O.jsxs(s2,{id:"education","aria-labelledby":"titulo-educacao",children:[O.jsx(d2,{id:"titulo-educacao",children:"Educação"}),O.jsx(m2,{children:S2.map((l,u)=>O.jsxs(h2,{"data-aos":"fade-right","data-aos-delay":l.delay,$isOdd:u%2!==0,children:[O.jsx(p2,{children:O.jsx("i",{className:"fa-solid fa-graduation-cap",style:{color:"#63E6BE"}})}),O.jsxs(v2,{children:[O.jsx(g2,{children:l.title}),O.jsx(y2,{children:l.period}),O.jsx(b2,{children:l.description})]})]},u))})]}),wh=[{name:"HTML 5",level:50,description:"Tenho uma boa base de HTML que me permite criar boas estruturas que possam se adequar ao meu nível de conhecimento para lidar com projetos."},{name:"CSS",level:50,description:"Tenho uma boa base de CSS que me permita criar estilos para meus projetos. Entendo conceitos importantes como flex-box e grid, dentre outros, mesmo sendo difícil lidar com esses conceitos em alguns momentos."},{name:"JavaScript",level:40,description:"Tenho uma boa base de JS. Já entendo bem conceitos como callbacks, promisses, async/await, consumo de APIs, destructuring, dentre outros conceitos."},{name:"React",level:30,description:"Estou em processo de aprendizado com React, focando na construção de interfaces através de componentes reutilizáveis. Tenho praticado o uso de Hooks como useState e useEffect, e utilizo Styled-Components para aplicar estilos de forma modular e dinâmica. Busco desenvolver projetos responsivos e organizados, aplicando boas práticas desde o início."},{name:"Git",level:50,description:"Compreensão dos conceitos de controle de versão distribuído com Git."},{name:"APIs",level:30,description:"Experiência em consumir APIs, entendendo o fluxo de requisição e resposta para integrar dados em aplicações web."},{name:"IA",level:30,description:"Tenho explorado os fundamentos da Inteligência Artificial, com foco em aplicações práticas como geração de conteúdo, automações e uso de modelos como ChatGPT e Gemini AI. Estudo conceitos básicos de aprendizado de máquina e estou ampliando meu conhecimento em como integrar soluções de IA a projetos web."}],A2=X.section`
-    padding: 4rem 2rem;
+    padding: 30px;
+    overflow: hidden;
     text-align: center;
     background-color: #323a48;
     color: #fff;
@@ -1607,7 +1611,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 
   body {
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden; /* impede scroll lateral */
+    overflow-x: hidden;
   }
 
   ::-webkit-scrollbar {
