@@ -54,7 +54,7 @@ Para rodar este portfólio em sua máquina, siga estes passos:
 
 ## 💬 Contato
 
-* **LinkedIn:** [Seu Nome](https://www.linkedin.com/in/cassio-leite/)
+* **LinkedIn:** [Cassio Leite](https://www.linkedin.com/in/cassio-leite/)
 * **Email:** cassiocarmo77@gmail.com
 
 
