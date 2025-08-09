@@ -21,7 +21,7 @@ const About = () => {
                     <BackgroundAnimation />
                     <ProfileImage src="./assets/images/cassio-leite.jpg" alt="Foto de perfil" />
                     <CurriculoBtn>
-                        <a href="/docs/curriculo.pdf" download="Curriculo-Cassio.pdf">
+                        <a href="./docs/curriculo.pdf" download="Curriculo-Cassio.pdf">
                             <i className="fa-solid fa-download"></i> <span>Download CV</span>
                         </a>
                     </CurriculoBtn>
