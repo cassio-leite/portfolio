@@ -19,6 +19,7 @@ export default createGlobalStyle`
 
   body {
     font-family: 'Roboto', sans-serif;
+    background-color: #1f232c;
     overflow-x: hidden;
   }
 
