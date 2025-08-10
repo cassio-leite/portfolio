@@ -39,7 +39,7 @@ export const TimelineContainer = styled.div`
     &:before {
     content: '';
     position: absolute;
-    left: 30px;
+    left: 20px;
     top: 0;
     bottom: 0;
     width: 4px;
@@ -55,7 +55,8 @@ export const TimelineContainer = styled.div`
 
 export const TimelineItem = styled.div`
     position: relative;
-    margin: 20px 0 40px 60px;
+    width: 100%;
+    padding: 20px 0 20px 50px;
 
     ${media.tablet`
     width: 50%;
@@ -68,8 +69,9 @@ export const TimelineItem = styled.div`
 
 export const TimelineIcon = styled.div`
     position: absolute;
-    left: -43px;
+    left: 20px;
     top: 0;
+    transform: translateX(-50%);
     width: 40px;
     height: 40px;
     background: #2e3239;
@@ -82,21 +84,8 @@ export const TimelineIcon = styled.div`
     color: var(--cor-primaria);
 
     ${media.desktop`
-    position: static;
-    margin: 0 auto;
-    position: absolute;
-    left: -43px;
-    top: 0;
-    width: 40px;
-    height: 40px;
-    background: #2e3239;
-    border: 2px solid #00fff0;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    color: var(--cor-primaria);
+        left: ${props => (props.$isOdd ? '-20px' : 'calc(100% - 20px)')};
+        transform: none;
     `}
 `;
 

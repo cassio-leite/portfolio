@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { media } from '../../styles/media';
 
 export const ProjectsSection = styled.section`
   padding: 60px 20px;
@@ -15,28 +16,35 @@ export const SectionTitle = styled.h2`
 `;
 
 export const PortfolioContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    ${media.tablet`
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    `}
 `;
 
 export const PortfolioItem = styled.div`
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    max-width: 500px;
+    margin: 0 auto;
 
-  &:hover {
-    transform: scale(1.05);
-  }
+    &:hover {
+        transform: scale(1.05);
+    }
 
-  &:hover .portfolio-overlay {
-    opacity: 1;
-  }
+    &:hover .portfolio-overlay {
+        opacity: 1;
+    }
 `;
 
 export const PortfolioImage = styled.img`

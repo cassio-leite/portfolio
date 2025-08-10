@@ -5,8 +5,7 @@ export const InterestsSection = styled.section`
     display: flex;
     flex-direction: column;
     background: linear-gradient(to left, #323648);
-    padding: 30px;
-    overflow-x: hidden;
+    padding: 30px 15px;
     align-items: center;
 
     ${media.desktop`
@@ -38,7 +37,7 @@ export const InterestItem = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 1rem;
     margin-top: 5rem;
 
     ${media.desktop`

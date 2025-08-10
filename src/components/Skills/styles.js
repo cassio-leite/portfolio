@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { media } from '../../styles/media';
 
 export const SkillsSection = styled.section`
     padding: 30px;
@@ -18,12 +19,20 @@ export const SectionTitle = styled.h2`
 `;
 
 export const SkillsBars = styled.div`
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 1.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 1rem;
     margin-bottom: 4rem;
     max-width: 1000px;
     margin-inline: auto;
+
+    ${media.desktop`
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 1.5rem 3rem;
+        padding: 0;
+    `}
 `;
 
 export const SkillBar = styled.div``;
@@ -62,17 +71,24 @@ export const Fill = styled.div`
 
 export const SkillsCards = styled.div`
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+
+    ${media.desktop`
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    `}
 `;
 
 export const Card = styled.div`
     background-color: #2d323d;
     padding: 2rem;
     border-radius: 8px;
+    width: 100%;
     max-width: 300px;
     text-align: left;
     position: relative;
@@ -80,11 +96,11 @@ export const Card = styled.div`
     box-shadow: 0 0 0 rgba(0, 255, 213, 0);
 
     &:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 25px rgba(0, 255, 213, 0.2);
-    background-color: #00ffd5;
-    color: #000;
-}
+        transform: translateY(-8px);
+        box-shadow: 0 10px 25px rgba(0, 255, 213, 0.2);
+        background-color: #00ffd5;
+        color: #000;
+    }
 `;
 
 export const CardNumber = styled.div`

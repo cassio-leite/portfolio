@@ -1,5 +1,5 @@
 import styled, { css, keyframes } from 'styled-components';
-import { media } from '../../styles/media';
+import { media, sizes } from '../../styles/media';
 
 const typing = keyframes`
     from { width: 0; }
@@ -13,15 +13,13 @@ const blink = keyframes`
 
 export const HomeSection = styled.section`
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     color: white;
-    
     padding: 30px;
-    overflow-x: hidden;
     position: relative;
+    padding-bottom: 50px;
 
     ${media.mobile`
     padding: 0 25%;
@@ -45,44 +43,53 @@ export const HomeVideo = styled.div`
     width: 100%;
     height: 100%;
     z-index: 0;
+
+    background-image: url('./assets/images/programe.png');
+    background-size: cover;
+    background-position: center;
     
     video {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-size: cover;
-    background-position: center;
+}
+
+@media (max-width: ${sizes.tablet / 16}em) {
+    video {
+    display: none;
+    }
 }
 `;
 
 export const AnimatedText = css`
     overflow: hidden;
     border-right: solid #ffffff;
-    white-space: nowrap;
     width: 0;
     animation: ${typing} 3s steps(30) 1s forwards, ${blink} 0.75s step-end infinite;
 `;
 
 export const HomeTitle = styled.h1`
     font-family: "Open Sans", sans-serif;
-    font-size: 10rem;
+    font-size: 5rem;
     font-weight: 300;
     margin: 0;
     ${AnimatedText}
+
+    ${media.tablet`
+    font-size: 10rem;
+    `}
 `;
 
 export const HomeSubtitle = styled.h2`
-    font-family: "Open Sans", sans-serif;
-    font-size: 4rem;
-    font-weight: 300;
-    margin: 0;
+    font-size: 2.5rem;
     ${AnimatedText}
-
+    ${media.tablet`
+    font-size: 4rem;
+`}
     ${media.mobile`
-    font-size: 6.4rem;
+    font-size: 3rem;
 `}
 `;
-
 export const HomeParagraph = styled.p`
     font-family: "Open Sans", sans-serif;
     font-size: 2.5rem;

@@ -10,7 +10,6 @@ const rotate = keyframes`
 export const AboutSection = styled.section`
     background: linear-gradient(to right, #1f232c, #1f232c);
     padding: 30px;
-    overflow-x: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,8 +50,8 @@ export const ImageWrapper = styled.div`
 
 export const BackgroundAnimation = styled.div`
     position: absolute;
-    top: -10px;
-    left: -10px;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     border: 3px solid var(--cor-primaria);
@@ -91,9 +90,11 @@ export const Info = styled.div`
     line-height: 2.5rem;
     max-width: 600px;
     margin-top: 3rem;
+    padding: 0 1rem;
 
     ${media.tablet`
     margin-top: 0;
+    padding: 0;
 `}
 `;
 
