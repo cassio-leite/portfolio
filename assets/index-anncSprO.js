@@ -259,7 +259,7 @@ Error generating stack: `+a.message+`
     padding-bottom: 50px;
 
     ${Bt.mobile`
-    padding: 0 25%;
+    padding: 0 15%;
     align-items: flex-start;
 `}
 `,Yb=X.div`
