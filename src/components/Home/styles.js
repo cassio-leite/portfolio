@@ -22,7 +22,7 @@ export const HomeSection = styled.section`
     padding-bottom: 50px;
 
     ${media.mobile`
-    padding: 0 25%;
+    padding: 0 15%;
     align-items: flex-start;
 `}
 `;
