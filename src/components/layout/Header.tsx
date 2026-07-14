@@ -9,6 +9,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from '#/components/ui/sheet'
+import { ModeToggle } from '#/components/mode-toggle'
 
 const navItems = [
   { name: 'Home', href: '#home' },
@@ -38,9 +39,7 @@ export function Header() {
     } else {
       document.body.classList.remove('overflow-hidden')
     }
-    return () => {
-      document.body.classList.remove('overflow-hidden')
-    }
+    return () => document.body.classList.remove('overflow-hidden')
   }, [isOpen])
 
   return (
@@ -48,8 +47,8 @@ export function Header() {
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
         isScrolled
-          ? 'bg-white/80 backdrop-blur-md shadow-md py-4'
-          : 'bg-white/30 backdrop-blur-sm py-6',
+          ? 'bg-background/80 backdrop-blur-md shadow-md py-4'
+          : 'bg-background/30 backdrop-blur-sm py-6',
       )}
     >
       <nav className="container mx-auto px-6 flex items-center justify-between">
@@ -58,7 +57,7 @@ export function Header() {
         </a>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex gap-6">
+        <div className="hidden md:flex items-center gap-6">
           {navItems.map((item) => (
             <a
               key={item.name}
@@ -68,10 +67,12 @@ export function Header() {
               {item.name}
             </a>
           ))}
+          <ModeToggle />
         </div>
 
         {/* Mobile Nav */}
-        <div className="md:hidden">
+        <div className="md:hidden flex items-center gap-2">
+          <ModeToggle />
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
               <button className="p-2" aria-label="Abrir menu">
@@ -88,7 +89,7 @@ export function Header() {
                     key={item.name}
                     href={item.href}
                     onClick={() => setIsOpen(false)}
-                    className="text-2xl font-medium hover:text-primary transition-colors"
+                    className="text-2xl font-medium text-primary hover:opacity-80 transition-colors"
                   >
                     {item.name}
                   </a>
