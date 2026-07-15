@@ -5,7 +5,7 @@ import { Mail, MessageCircle, MapPin, Calendar } from 'lucide-react'
 export function About() {
   return (
     <section id="about" className="py-20 bg-background">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 pt-15">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

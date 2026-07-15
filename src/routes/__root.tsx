@@ -47,7 +47,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <head>
         <HeadContent />
       </head>
-      <body>
+      <body className="bg-background text-foreground antialiased">
         <ThemeProvider defaultTheme="system" storageKey="theme">
           {children}
         </ThemeProvider>
