@@ -3,24 +3,23 @@ import type { Project } from './types'
 export const projects: Project[] = [
   {
     id: 1,
-    slug: 'fetch-github-api',
-    title: 'Projeto-fetch-github-api',
+    slug: 'dra.-mariana-oliveira-landing-page',
+    title: 'Landing Page para Psicóloga Clínica',
     description:
-      'Este projeto é uma aplicação web que permite buscar usuários do GitHub e exibir suas informações, ' +
-      'como nome, bio e repositórios públicos.',
-    image: '/assets/images/projeto-fetch-github.png',
-    repoLink: 'https://github.com/cassio-leite/projeto-fetch-github-api.git',
-    liveLink: 'https://cassio-leite.github.io/projeto-fetch-github-api/',
+      'Uma landing page premium, totalmente responsiva e de alta conversão, desenvolvida para a psicóloga clínica Dra. Mariana Oliveira. O design do site foi planejado em torno de quatro pilares fundamentais: acolhimento, confiança, conversão e experiência de alto padrão.',
+    image: '/assets/images/dra-mariana-oliveira.png',
+    repoLink: 'https://github.com/cassio-leite/dra.-mariana-oliveira-landing-page.git',
+    liveLink: 'https://dra-mariana-oliveira-landing-page.vercel.app/',
   },
   {
     id: 2,
-    slug: 'gerador-de-conselhos',
-    title: 'Gerador de Conselhos',
+    slug: 'cafe-aurora',
+    title: 'Café Aurora - Aroma Artisanal Haven',
     description:
-      'Um projeto simples e interativo que gera conselhos aleatórios consumindo a API pública Advice Slip API.',
-    image: '/assets/images/projeto-gerador-de-conselhos.png',
-    repoLink: 'https://github.com/cassio-leite/Gerador-de-conselhos.git',
-    liveLink: 'https://cassio-leite.github.io/Gerador-de-conselhos/',
+      'O Café Aurora é um projeto desenvolvido com o objetivo de apresentar uma cafeteria artesanal de forma elegante e funcional. O site institucional tem como foco a experiência premium do usuário, apresentação detalhada do cardápio e conversão de clientes através de contatos via WhatsApp.',
+    image: '/assets/images/aroma-artisanal.png',
+    repoLink: 'https://github.com/cassio-leite/aroma-artisanal-haven.git',
+    liveLink: 'https://aroma-artisanal-haven.vercel.app/',
   },
   {
     id: 3,
@@ -45,13 +44,13 @@ export const projects: Project[] = [
   },
   {
     id: 5,
-    slug: 'livros-para-programadores',
-    title: 'Lista de Livros para Programadores',
+    slug: 'sistema-de-gestao-de-estoque',
+    title: 'Sistema de Gestao de Estoque',
     description:
-      'Este projeto é um site interativo que apresenta uma lista de livros essenciais para programadores.',
-    image: '/assets/images/projeto-livros-para-programadores.png',
-    repoLink: 'https://github.com/cassio-leite/livros-para-desenvolvedores.git',
-    liveLink: 'https://cassio-leite.github.io/livros-para-desenvolvedores/',
+      'Este é um sistema de gestao de estoque completo, desenvolvido com o objetivo de facilitar a gestão de inventário e controle de produtos em uma loja ou empresa.',
+    image: '/assets/images/stockly.png',
+    repoLink: 'https://github.com/cassio-leite/Stockly.git',
+    liveLink: 'https://stockly-two-ecru.vercel.app/',
   },
   {
     id: 6,
