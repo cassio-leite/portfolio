@@ -6,6 +6,7 @@ import { Interests as InterestsSection } from '#/components/sections/Interests'
 import { Education as EducationSection } from '#/components/sections/Education'
 import { Skills as SkillsSection } from '#/components/sections/Skills'
 import { Projects as ProjectsSection } from '#/components/sections/Projects'
+import { Contact as ContactSection } from '#/components/sections/Contact'
 
 export const Route = createFileRoute('/')({ component: RouteComponent })
 
@@ -20,6 +21,7 @@ function RouteComponent() {
         <EducationSection />
         <SkillsSection />
         <ProjectsSection />
+        <ContactSection />
       </main>
     </>
   )
