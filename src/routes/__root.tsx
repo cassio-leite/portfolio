@@ -38,6 +38,11 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
     ],
     links: [
       {
+        rel: 'icon',
+        type: 'image/jpeg',
+        href: '/assets/images/favicon.jpg',
+      },
+      {
         rel: 'preconnect',
         href: 'https://fonts.googleapis.com',
       },
@@ -61,7 +66,7 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
 
 function RootDocument({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="pt-BR" suppressHydrationWarning>
       <head>
         <HeadContent />
       </head>
