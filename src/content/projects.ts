@@ -28,7 +28,7 @@ export const projects: Project[] = [
     description:
       'Projeto simples e funcional de uma aplicação web que exibe a previsão do tempo atual para qualquer ' +
       'cidade informada.',
-    image: '/assets/images/projeto-clima.png',
+    image: '/assets/images/projeto-clima.webp',
     repoLink: 'https://github.com/cassio-leite/Projeto-clima.git',
     liveLink: 'https://cassio-leite.github.io/Projeto-clima/',
   },
@@ -38,7 +38,7 @@ export const projects: Project[] = [
     title: 'Formulário com Validação',
     description:
       'Este projeto é um formulário de contato com validação de campos obrigatórios.',
-    image: '/assets/images/projeto-formulario.png',
+    image: '/assets/images/projeto-formulario.webp',
     repoLink: 'https://github.com/cassio-leite/f-o-r-m-u-l-a-r-i-o.git',
     liveLink: 'https://cassio-leite.github.io/f-o-r-m-u-l-a-r-i-o/',
   },
@@ -48,7 +48,7 @@ export const projects: Project[] = [
     title: 'Sistema de Gestao de Estoque',
     description:
       'Este é um sistema de gestao de estoque completo, desenvolvido com o objetivo de facilitar a gestão de inventário e controle de produtos em uma loja ou empresa.',
-    image: '/assets/images/stockly.png',
+    image: '/assets/images/stockly.webp',
     repoLink: 'https://github.com/cassio-leite/Stockly.git',
     liveLink: 'https://stockly-two-ecru.vercel.app/',
   },

@@ -20,7 +20,7 @@ export const profile: Profile = {
   email: 'cassiocarmo77@gmail.com',
   whatsappUrl: 'https://wa.me/5533999956105',
   cvUrl: '/docs/curriculo.pdf',
-  avatarUrl: '/assets/images/cassio-leite.jpg',
+  avatarUrl: '/assets/images/cassio-leite.webp',
   contactFormEndpoint: 'https://formspree.io/f/xrblrznr',
   socialLinks: [
     { label: 'Email', url: 'mailto:cassiocarmo77@gmail.com', icon: 'envelope' },
