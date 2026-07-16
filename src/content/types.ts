@@ -15,6 +15,7 @@ export interface Profile {
   whatsappUrl: string;
   cvUrl: string;
   avatarUrl: string;
+  contactFormEndpoint: string;
   socialLinks: SocialLink[];
 }
 
