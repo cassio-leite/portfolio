@@ -6,6 +6,7 @@ import {
 import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
 import { TanStackDevtools } from '@tanstack/react-devtools'
 import { ThemeProvider } from '#/components/theme-provider'
+import { Footer } from '#/components/layout/Footer'
 
 import TanStackQueryDevtools from '../integrations/tanstack-query/devtools'
 
@@ -50,6 +51,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <body className="bg-background text-foreground antialiased">
         <ThemeProvider defaultTheme="system" storageKey="theme">
           {children}
+          <Footer />
         </ThemeProvider>
         <TanStackDevtools
           config={{
