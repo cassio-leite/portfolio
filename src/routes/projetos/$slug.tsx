@@ -11,7 +11,10 @@ export const Route = createFileRoute('/projetos/$slug')({
     return project
   },
   head: ({ loaderData }) => ({
-    title: `${loaderData.title} | Portfolio`,
+    meta: [
+      { title: `${loaderData.title} | Cássio Leite` },
+      { name: 'description', content: loaderData.description.slice(0, 160) },
+    ],
   }),
   component: ProjectDetail,
 })
