@@ -1,4 +1,4 @@
-import type { Profile } from './types'
+import type { Profile } from './types';
 
 export const profile: Profile = {
   name: 'Cássio Leite',
@@ -21,14 +21,11 @@ export const profile: Profile = {
   whatsappUrl: 'https://wa.me/5533999956105',
   cvUrl: '/docs/curriculo.pdf',
   avatarUrl: '/assets/images/cassio-leite.jpg',
+  contactFormEndpoint: 'https://formspree.io/f/xrblrznr',
   socialLinks: [
     { label: 'Email', url: 'mailto:cassiocarmo77@gmail.com', icon: 'envelope' },
     { label: 'WhatsApp', url: 'https://wa.me/5533999956105', icon: 'whatsapp' },
-    {
-      label: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/cassio-leite/',
-      icon: 'linkedin',
-    },
+    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/cassio-leite/', icon: 'linkedin' },
     { label: 'GitHub', url: 'https://github.com/cassio-leite', icon: 'github' },
   ],
-}
+};
