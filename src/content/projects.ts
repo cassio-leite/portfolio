@@ -7,7 +7,7 @@ export const projects: Project[] = [
     title: 'Landing Page para Psicóloga Clínica',
     description:
       'Uma landing page premium, totalmente responsiva e de alta conversão, desenvolvida para a psicóloga clínica Dra. Mariana Oliveira. O design do site foi planejado em torno de quatro pilares fundamentais: acolhimento, confiança, conversão e experiência de alto padrão.',
-    image: '/assets/images/dra-mariana-oliveira.png',
+    image: '/assets/images/dra-mariana-oliveira.webp',
     repoLink: 'https://github.com/cassio-leite/dra.-mariana-oliveira-landing-page.git',
     liveLink: 'https://dra-mariana-oliveira-landing-page.vercel.app/',
   },
@@ -17,7 +17,7 @@ export const projects: Project[] = [
     title: 'Café Aurora - Aroma Artisanal Haven',
     description:
       'O Café Aurora é um projeto desenvolvido com o objetivo de apresentar uma cafeteria artesanal de forma elegante e funcional. O site institucional tem como foco a experiência premium do usuário, apresentação detalhada do cardápio e conversão de clientes através de contatos via WhatsApp.',
-    image: '/assets/images/aroma-artisanal.png',
+    image: '/assets/images/aroma-artisanal.webp',
     repoLink: 'https://github.com/cassio-leite/aroma-artisanal-haven.git',
     liveLink: 'https://aroma-artisanal-haven.vercel.app/',
   },
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     title: 'projeto-e-commerce-perfume',
     description:
       'Este projeto é uma loja virtual de perfumes, onde os usuários podem navegar e comprar fragrâncias.',
-    image: '/assets/images/projeto-e-commerce-perfume.png',
+    image: '/assets/images/projeto-e-commerce-perfume.webp',
     repoLink: 'https://github.com/cassio-leite/projeto-e-commerce-perfume.git',
     liveLink: 'https://cassio-leite.github.io/projeto-e-commerce-perfume/',
   },
