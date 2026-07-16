@@ -89,6 +89,7 @@ export function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
+            aria-live="polite"
           >
             {status === 'success' ? (
               <div className="p-6 bg-primary/10 border border-primary/20 rounded-xl text-center">

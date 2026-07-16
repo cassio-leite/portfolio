@@ -66,6 +66,12 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <HeadContent />
       </head>
       <body className="bg-background text-foreground antialiased">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[9999] focus:p-4 focus:bg-primary focus:text-primary-foreground focus:rounded-md"
+        >
+          Pular para o conteúdo
+        </a>
         <ThemeProvider defaultTheme="system" storageKey="theme">
           {children}
           <Footer />

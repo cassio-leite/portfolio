@@ -14,7 +14,7 @@ function RouteComponent() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         <HomeSection />
         <AboutSection />
         <InterestsSection />
