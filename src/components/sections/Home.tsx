@@ -1,15 +1,9 @@
 import { motion } from 'framer-motion'
-import { Mail, MessageCircle, Linkedin, Github, MapPin, CheckCircle2 } from 'lucide-react'
+import { MapPin, CheckCircle2 } from 'lucide-react'
 import { profile } from '#/content/profile'
 import { AuroraBackground } from '#/components/ui/aurora-background'
 import { Button } from '#/components/ui/button'
-
-const iconMap = {
-  envelope: Mail,
-  whatsapp: MessageCircle,
-  linkedin: Linkedin,
-  github: Github,
-}
+import { socialIconMap } from '#/lib/social-icons'
 
 export function Home() {
   return (
@@ -50,7 +44,7 @@ export function Home() {
 
             <div className="flex gap-4">
               {profile.socialLinks.map((link) => {
-                const IconComponent = iconMap[link.icon]
+                const IconComponent = socialIconMap[link.icon as keyof typeof socialIconMap]
                 return (
                   <a
                     key={link.label}
