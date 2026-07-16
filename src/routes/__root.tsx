@@ -29,7 +29,11 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'TanStack Start Starter',
+        title: 'Cássio Leite — Desenvolvedor Web Front-end',
+      },
+      {
+        name: 'description',
+        content: 'Portfólio de Cássio Leite, desenvolvedor front-end especializado em React, TypeScript e TanStack.',
       },
     ],
     links: [
@@ -53,18 +57,20 @@ function RootDocument({ children }: { children: React.ReactNode }) {
           {children}
           <Footer />
         </ThemeProvider>
-        <TanStackDevtools
-          config={{
-            position: 'bottom-right',
-          }}
-          plugins={[
-            {
-              name: 'Tanstack Router',
-              render: <TanStackRouterDevtoolsPanel />,
-            },
-            TanStackQueryDevtools,
-          ]}
-        />
+        {import.meta.env.DEV && (
+          <TanStackDevtools
+            config={{
+              position: 'bottom-right',
+            }}
+            plugins={[
+              {
+                name: 'Tanstack Router',
+                render: <TanStackRouterDevtoolsPanel />,
+              },
+              TanStackQueryDevtools,
+            ]}
+          />
+        )}
         <Scripts />
       </body>
     </html>
