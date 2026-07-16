@@ -83,7 +83,7 @@ export function Header() {
               <SheetHeader>
                 <SheetTitle className="text-left">Navegação</SheetTitle>
               </SheetHeader>
-              <nav className="flex flex-col gap-6 mt-10">
+              <nav className="flex flex-col gap-6 mt-10 px-6">
                 {navItems.map((item) => (
                   <a
                     key={item.name}
