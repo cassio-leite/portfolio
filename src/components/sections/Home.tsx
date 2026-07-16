@@ -9,7 +9,7 @@ export function Home() {
   return (
     <section id="home">
       <AuroraBackground>
-        <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10 pt-60 md:pt-40">
+        <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10 pt-28 md:pt-32">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
