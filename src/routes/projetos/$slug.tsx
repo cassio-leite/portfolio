@@ -36,6 +36,7 @@ function ProjectDetail() {
         <img
           src={project.image}
           alt={project.title}
+          loading="lazy"
           className="w-full aspect-video object-cover rounded-2xl shadow-lg mb-8"
         />
 
