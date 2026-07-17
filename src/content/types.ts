@@ -30,11 +30,9 @@ export interface EducationItem {
   description: string;
 }
 
-export type SkillLevel = 'básico' | 'intermediário' | 'avançado';
-
-export interface Skill {
+export interface SkillCategory {
   name: string;
-  level: SkillLevel;
+  technologies: string[];
   description: string;
 }
 

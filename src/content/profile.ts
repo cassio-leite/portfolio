@@ -3,7 +3,7 @@ import type { Profile } from './types';
 export const profile: Profile = {
   name: 'Cássio Leite',
   greeting: 'Olá!',
-  role: 'Desenvolvedor Web FrontEnd',
+  role: 'Desenvolvedor Web Front-End',
   bio:
     'Olá, meu nome é Cássio Leite, sou um Desenvolvedor apaixonado por tecnologia que busca construir ' +
     'uma carreira profissional na área de desenvolvimento, estou sempre buscando aprender e me aprimorar ' +

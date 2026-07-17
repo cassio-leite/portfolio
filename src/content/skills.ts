@@ -1,56 +1,48 @@
-import type { Skill } from './types';
+import type { SkillCategory } from './types';
 
-export const skills: Skill[] = [
+export const skills: SkillCategory[] = [
   {
-    name: 'HTML 5',
-    level: 'intermediário',
+    name: 'Linguagens',
+    technologies: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'SQL'],
     description:
-      'Tenho uma boa base de HTML que me permite criar boas estruturas que possam se adequar ao meu ' +
-      'nível de conhecimento para lidar com projetos.',
+      'Base sólida em HTML semântico e acessível, CSS responsivo (Flexbox, Grid, animações) e ' +
+      'JavaScript moderno (ES6+) para manipulação de DOM, programação assíncrona e consumo de APIs. ' +
+      'Uso TypeScript para tipagem estática em projetos que exigem mais segurança e escala, e SQL ' +
+      'para consultas e relacionamentos entre tabelas em bancos relacionais.',
   },
   {
-    name: 'CSS',
-    level: 'intermediário',
+    name: 'Front-end',
+    technologies: ['React', 'Next.js', 'Tailwind CSS'],
     description:
-      'Tenho uma boa base de CSS que me permita criar estilos para meus projetos. Entendo conceitos ' +
-      'importantes como flex-box e grid, dentre outros, mesmo sendo difícil lidar com esses conceitos ' +
-      'em alguns momentos.',
+      'Desenvolvimento de interfaces com React (componentes, Hooks, gerenciamento de estado, consumo ' +
+      'de APIs) e Next.js (App Router, Server e Client Components, estratégias de renderização, Data ' +
+      'Fetching e otimizações de performance para produção). Estilização com Tailwind CSS, priorizando ' +
+      'produtividade, consistência e manutenção via classes utilitárias.',
   },
   {
-    name: 'JavaScript',
-    level: 'intermediário',
+    name: 'Back-end',
+    technologies: ['Node.js', 'Express', 'PostgreSQL', 'APIs REST'],
     description:
-      'Tenho uma boa base de JS. Já entendo bem conceitos como callbacks, promises, async/await, ' +
-      'consumo de APIs, destructuring, dentre outros conceitos.',
+      'Construção de APIs com Node.js e Express (rotas, middlewares, programação assíncrona) ' +
+      'integradas a bancos de dados relacionais com PostgreSQL (modelagem e consultas). Experiência ' +
+      'em integração e desenvolvimento de APIs REST, incluindo requisições, tratamento de respostas e ' +
+      'organização de dados entre aplicações.',
   },
   {
-    name: 'React',
-    level: 'intermediário',
+    name: 'Ferramentas',
+    technologies: ['Git', 'GitHub', 'Docker', 'Jest'],
     description:
-      'Estou em processo de aprendizado com React, focando na construção de interfaces através de ' +
-      'componentes reutilizáveis. Tenho praticado o uso de Hooks como useState e useEffect, e utilizo ' +
-      'Styled-Components para aplicar estilos de forma modular e dinâmica. Busco desenvolver projetos ' +
-      'responsivos e organizados, aplicando boas práticas desde o início.',
+      'Controle de versão com Git e GitHub (organização de branches, colaboração e boas práticas de ' +
+      'fluxo de trabalho), Docker para padronizar ambientes de desenvolvimento, e Jest para testes ' +
+      'automatizados que garantem maior confiabilidade nas aplicações.',
   },
   {
-    name: 'Git',
-    level: 'intermediário',
-    description: 'Compreensão dos conceitos de controle de versão distribuído com Git.',
-  },
-  {
-    name: 'APIs',
-    level: 'básico',
+    name: 'Inteligência Artificial',
+    technologies: ['LLMs', 'Prompt Engineering', 'MCP', 'Context Engineering'],
     description:
-      'Experiência em consumir APIs, entendendo o fluxo de requisição e resposta para integrar dados ' +
-      'em aplicações web.',
-  },
-  {
-    name: 'IA',
-    level: 'intermediário',
-    description:
-      'Tenho explorado os fundamentos da Inteligência Artificial, com foco em aplicações práticas como ' +
-      'geração de conteúdo, automações e uso de modelos como ChatGPT e Gemini AI. Estudo conceitos ' +
-      'básicos de aprendizado de máquina e estou ampliando meu conhecimento em como integrar soluções ' +
-      'de IA a projetos web.',
+      'Aplicação de ferramentas de IA no desenvolvimento de software, com uso de LLMs, Prompt ' +
+      'Engineering e Context Engineering para obter respostas mais precisas e consistentes. Exploro o ' +
+      'Model Context Protocol (MCP) para integração entre modelos, ferramentas e agentes inteligentes ' +
+      'em arquiteturas modernas.',
   },
 ];
