@@ -14,8 +14,7 @@ O projeto pode ser visualizado online no link abaixo:
 
 ## Preview
 
-![Preview](./public/assets/images/cassio-leite.webp)
-*(Imagem do perfil do desenvolvedor exibida na seção Hero do portfólio)*
+![Preview](./public/assets/images/preview.gif)
 
 ---
 
